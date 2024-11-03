@@ -1,2 +1,8 @@
-# bug-bounty-notes
-Collection of notes and resources for bug bounty
+# Google dorks
+
+[Find self hosted bug bounty programs](google-dorks/find-bug-bounty-programs.md)
+
+
+# Vulnerabilities
+
+[SQL injection](vulnerabilities/sql-injection.md)
