@@ -5,4 +5,6 @@
 
 # Vulnerabilities
 
-[SQL injection](vulnerabilities/sql-injection.md)
+## Server side vulnerabilities
+
+[SQL injection](vulnerabilities/server-side-vulnerabilities/sql-injection.md)
