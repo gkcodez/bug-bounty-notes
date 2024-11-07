@@ -1,10 +1,12 @@
 
+## Learn
+
+### Vulnerabilities
+| [Authentication](/learn/vulnerabilities/authentication.md) |
 
 
 ## Labs
 
 ### Portswigger
 
-  | Name                                                              | Completed   |
-  | ------------------------------------------------------------------|-------------|
-  | [Authentication](/labs/portswigger/authentication.md)             | 00 / 14     |
+| [Authentication](/practice/labs/portswigger/authentication.md) ( 2 / 14 ) |
