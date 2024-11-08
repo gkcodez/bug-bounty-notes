@@ -2,11 +2,12 @@
 ## Learn
 
 ### Vulnerabilities
-| [Authentication](/learn/vulnerabilities/authentication.md) |
+
+[Authentication](/learn/vulnerabilities/authentication.md)
 
 
 ## Labs
 
 ### Portswigger
 
-| [Authentication](/practice/labs/portswigger/authentication.md) ( 2 / 14 ) |
+[Authentication](/practice/labs/portswigger/authentication.md) | 🟢⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪
