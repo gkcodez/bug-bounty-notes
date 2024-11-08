@@ -45,4 +45,10 @@
     - Error message
     - Response time
 
+### Flawed bruteforce protection
 
+- Two main methods to prevent bruteforcing
+    - Locking the account when there are too many login attempts.
+    - Blocking remote ip address when there are too many login attempts.
+- Both approaches are vulnerable if implemented using flawed logic.
+- If failed attempts resets after successful login, then the attacker login to own account after every few attempts to make the locking the account approach virtually useless.

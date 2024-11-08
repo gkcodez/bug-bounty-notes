@@ -10,4 +10,4 @@
 
 ### Portswigger
 
-[Authentication](/practice/labs/portswigger/authentication.md) | 🟢⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪
+[Authentication](/practice/labs/portswigger/authentication.md) ( 3 / 12 )
