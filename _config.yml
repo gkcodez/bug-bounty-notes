@@ -1,0 +1,5 @@
+# Jekyll configuration for custom CSS class on markdown content
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    css_class: 'custom-markdown'

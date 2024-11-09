@@ -1,0 +1,10 @@
+.custom-markdown {
+    /* Add global styles here */
+}
+
+/* Example style for checkboxes without bullets */
+.custom-markdown ul > li input[type="checkbox"] {
+    list-style-type: none;
+    display: inline;
+    margin-right: 5px; /* Optional: spacing */
+}
