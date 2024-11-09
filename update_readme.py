@@ -11,9 +11,12 @@ readme_path = Path("README.md")
 
 def count_checked_items(file_path):
     """Count checked items (marked as - [x]) in the given markdown file."""
+    print(f"Checking file: " {file_path})
     with open(file_path, "r") as file:
         content = file.read()
-    return len(re.findall(r"- [x]", content))
+    checked_items_count = len(re.findall(r"- [x]", content))
+    print(f"Checked count: " {checked_items_count})
+    return checked_items_count
 
 def update_readme():
     # Read the README content
