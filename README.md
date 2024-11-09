@@ -3,17 +3,15 @@
 
 ### Vulnerabilities
 
-[SQL injection](/learn/vulnerabilities/01.sql-injection.md) | 
-[Cross site scripting](/learn/vulnerabilities/02.cross-site-scripting.md) | 
+[SQL injection](/learn/vulnerabilities/01.sql-injection.md) \
+[Cross site scripting](/learn/vulnerabilities/02.cross-site-scripting.md)
 
 ## CTFs
 
 ### Over the wire
 
-| Name                                                                              | Total | Done  |
-|-----------------------------------------------------------------------------------|-------|-------|
-| [Bandit](/practice/ctfs/over-the-wire/01.bandit.md)                               | 35    | 0     |
-| [Natas](/practice/ctfs/over-the-wire/02.natas.md)                                 | 35    | 0     |
+[Bandit](/practice/ctfs/over-the-wire/01.bandit.md) (0/35) \
+[Natas](/practice/ctfs/over-the-wire/02.natas.md) (0/35)
 
 
 ## Labs

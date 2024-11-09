@@ -27,10 +27,13 @@ def update_readme():
     # Update the table in the README
     updated_content = []
     for line in readme_content:
-        match = re.match(r"\| \[(.+?)\]\(.+?\) \| (\d+) \| (\d+) \|", line)
+        match = re.match(r"| (\d+) | (\d+) |", line)
+        print(match)
         if match:
             name = match.group(1)
             total = match.group(2)
+            print(name)
+            print(total)
             if name in files_to_check:
                 # Count checked items in the corresponding file
                 done = count_checked_items(files_to_check[name])
