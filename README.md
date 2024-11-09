@@ -4,37 +4,37 @@
 
 | Name                                                                                               |
 | -------------------------------------------------------------------------------------------------- |
-| [SQL injection notes](learn/vulnerabilities/01.sql-injection.md)                                   |
-| [Cross site scripting notes](learn/vulnerabilities/02.cross-site-scripting.md)                     |
-| [Cross site request forgery notes](learn/vulnerabilities/03.cross-site-request-forgery.md)         |
-| [Clickjacking notes](learn/vulnerabilities/04.clickjacking.md)                                     |
-| [DOM based vulnerabilities notes](learn/vulnerabilities/05.dom-based-vulnerabilities.md)           |
-| [Cross origin resource sharing notes](learn/vulnerabilities/06.cross-origin-resource-sharing.md)   |
-| [XML external entity injection notes](learn/vulnerabilities/07.xml-external-entity-injection.md)   |
-| [Server side request forgery notes](learn/vulnerabilities/08.server-side-request-forgery.md)       |
-| [HTTP request smuggling notes](learn/vulnerabilities/09.http-request-smuggling.md)                 |
-| [OS command injection notes](learn/vulnerabilities/10.os-command-injection.md)                     |
-| [Server side template injection notes](learn/vulnerabilities/11-server-side-template-injection.md) |
-| [Path traversal notes](learn/vulnerabilities/12.path-traversal.md)                                 |
-| [Access control vulnerabilities notes](learn/vulnerabilities/13.access-control-vulnerabilities.md) |
-| [Authentication notes](learn/vulnerabilities/14.authentication.md)                                 |
-| [Websockets notes](learn/vulnerabilities/15.websockets.md)                                         |
-| [Web cache poisoning notes](learn/vulnerabilities/16.web-cache-poisoning.md)                       |
-| [insecure deserialization notes](learn/vulnerabilities/17.insecure-deserialization.md)             |
-| [Information disclosure notes](learn/vulnerabilities/18.information-disclosure.md)                 |
-| [Business logic vulnerabilities notes](learn/vulnerabilities/19.business-logic-vulnerabilities.md) |
-| [HTTP host header attacks notes](learn/vulnerabilities/20.http-host-header-attacks.md)             |
-| [Oauth authentication notes](learn/vulnerabilities/21.oauth-authentication.md)                     |
-| [File upload vulnerabilities notes](learn/vulnerabilities/22.file-upload-vulnerabilities.md)       |
-| [JWT authentication notes](learn/vulnerabilities/23.jwt-authentication.md)                         |
-| [Essential skills notes](learn/vulnerabilities/24.essential-skills.md)                             |
-| [Prototype pollution notes](learn/vulnerabilities/25.prototype-pollution.md)                       |
-| [Graphql vulnerabilities notes](learn/vulnerabilities/26.graphql-vulnerabilities.md)               |
-| [Race-conditions notes](learn/vulnerabilities/27.race-conditions.md)                               |
-| [No SQL injection notes](learn/vulnerabilities/28.no-sql-injection.md)                             |
-| [API testing notes](learn/vulnerabilities/29.api-testing.md)                                       |
-| [web llm attacks notes](learn/vulnerabilities/30.web-llm-attacks.md)                               |
-| [Web cache deception notes](learn/vulnerabilities/31.web-cache-deception.md)                       |
+| [SQL injection notes](notes/vulnerabilities/01.sql-injection.md)                                   |
+| [Cross site scripting notes](notes/vulnerabilities/02.cross-site-scripting.md)                     |
+| [Cross site request forgery notes](notes/vulnerabilities/03.cross-site-request-forgery.md)         |
+| [Clickjacking notes](notes/vulnerabilities/04.clickjacking.md)                                     |
+| [DOM based vulnerabilities notes](notes/vulnerabilities/05.dom-based-vulnerabilities.md)           |
+| [Cross origin resource sharing notes](notes/vulnerabilities/06.cross-origin-resource-sharing.md)   |
+| [XML external entity injection notes](notes/vulnerabilities/07.xml-external-entity-injection.md)   |
+| [Server side request forgery notes](notes/vulnerabilities/08.server-side-request-forgery.md)       |
+| [HTTP request smuggling notes](notes/vulnerabilities/09.http-request-smuggling.md)                 |
+| [OS command injection notes](notes/vulnerabilities/10.os-command-injection.md)                     |
+| [Server side template injection notes](notes/vulnerabilities/11-server-side-template-injection.md) |
+| [Path traversal notes](notes/vulnerabilities/12.path-traversal.md)                                 |
+| [Access control vulnerabilities notes](notes/vulnerabilities/13.access-control-vulnerabilities.md) |
+| [Authentication notes](notes/vulnerabilities/14.authentication.md)                                 |
+| [Websockets notes](notes/vulnerabilities/15.websockets.md)                                         |
+| [Web cache poisoning notes](notes/vulnerabilities/16.web-cache-poisoning.md)                       |
+| [insecure deserialization notes](notes/vulnerabilities/17.insecure-deserialization.md)             |
+| [Information disclosure notes](notes/vulnerabilities/18.information-disclosure.md)                 |
+| [Business logic vulnerabilities notes](notes/vulnerabilities/19.business-logic-vulnerabilities.md) |
+| [HTTP host header attacks notes](notes/vulnerabilities/20.http-host-header-attacks.md)             |
+| [Oauth authentication notes](notes/vulnerabilities/21.oauth-authentication.md)                     |
+| [File upload vulnerabilities notes](notes/vulnerabilities/22.file-upload-vulnerabilities.md)       |
+| [JWT authentication notes](notes/vulnerabilities/23.jwt-authentication.md)                         |
+| [Essential skills notes](notes/vulnerabilities/24.essential-skills.md)                             |
+| [Prototype pollution notes](notes/vulnerabilities/25.prototype-pollution.md)                       |
+| [Graphql vulnerabilities notes](notes/vulnerabilities/26.graphql-vulnerabilities.md)               |
+| [Race-conditions notes](notes/vulnerabilities/27.race-conditions.md)                               |
+| [No SQL injection notes](notes/vulnerabilities/28.no-sql-injection.md)                             |
+| [API testing notes](notes/vulnerabilities/29.api-testing.md)                                       |
+| [web llm attacks notes](notes/vulnerabilities/30.web-llm-attacks.md)                               |
+| [Web cache deception notes](notes/vulnerabilities/31.web-cache-deception.md)                       |
                      
 
 ## CTFs
