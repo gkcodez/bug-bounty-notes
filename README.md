@@ -16,7 +16,7 @@
 | [Natas](/practice/ctfs/over-the-wire/02.natas.md)                                 | 35    | 0     |
 
 
-## Labsz
+## Labs
 
 ### Portswigger
 
