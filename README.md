@@ -1,4 +1,10 @@
-## Notes
+## Vulnerabilities
+
+1. [SQL Injection](sql-injection/index.md)             
+2. [Cross site scripting](cross-site-scripting/index.md)
+
+
+<!-- ## Notes
 
 ### Vulnerabilities
 
@@ -92,4 +98,4 @@
 | -------------------------------------------------- |
 | [Google dorks resource](resources/google-dorks.md) |
 | [Cheatsheets resource](resources/cheatsheets.md)   |
-| [Checklists resource](resources/checklists.md)     |
+| [Checklists resource](resources/checklists.md)     | --> |
