@@ -28,7 +28,7 @@
 
 | Name                                                                                      | Total | Done |
 | ----------------------------------------------------------------------------------------- | ----- | ---- |
-| [SQL injection lab](labs/portswigger/01.sql-injection.md) | 18 | 1 |
+| [SQL injection lab](labs/portswigger/01.sql-injection.md) | 18 | 0 |
 | [Cross site scripting lab](labs/portswigger/02.cross-site-scripting.md) | 30 | 0 |
 | [Cross site request forgery lab](labs/portswigger/03.cross-site-request-forgery.md) | 12 | 0 |
 | [Clickjacking lab](labs/portswigger/04.clickjacking.md) | 5 | 0 |
