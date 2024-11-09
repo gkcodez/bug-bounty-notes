@@ -1,3 +1,5 @@
+# Find bug bounty programs
+
 ## Basic Search
 
 ### Match text in URL
