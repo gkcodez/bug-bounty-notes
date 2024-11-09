@@ -1,9 +1,35 @@
 ## Vulnerabilities
-
 1. [SQL Injection](vulnerabilities/sql-injection/index.md)             
 2. [Cross site scripting](vulnerabilities/cross-site-scripting/index.md)
 3. [Cross site request forgery](vulnerabilities/cross-site-request-forgery/index.md)
-
+4. [Clickjacking](vulnerabilities/04.clickjacking.md)                                    
+5. [DOM based vulnerabilities](vulnerabilities/05.dom-based-vulnerabilities.md)          
+6. [Cross origin resource sharing](vulnerabilities/06.cross-origin-resource-sharing.md)  
+7. [XML external entity injection](vulnerabilities/07.xml-external-entity-injection.md)  
+8. [Server side request forgery](vulnerabilities/08.server-side-request-forgery.md)      
+9. [HTTP request smuggling](vulnerabilities/09.http-request-smuggling.md)                
+10. [OS command injection](vulnerabilities/10.os-command-injection.md)                    
+11. [Server side template injection](vulnerabilities/11-server-side-template-injection.md)
+12. [Path traversal](vulnerabilities/12.path-traversal.md)                                
+13. [Access control vulnerabilities](vulnerabilities/13.access-control-vulnerabilities.md)
+14. [Authentication](vulnerabilities/14.authentication.md)                                
+15. [Websockets](vulnerabilities/15.websockets.md)                                        
+16. [Web cache poisoning](vulnerabilities/16.web-cache-poisoning.md)                      
+17. [insecure deserialization](vulnerabilities/17.insecure-deserialization.md)            
+18. [Information disclosure](vulnerabilities/18.information-disclosure.md)                
+19. [Business logic vulnerabilities](vulnerabilities/19.business-logic-vulnerabilities.md)
+20. [HTTP host header attacks](vulnerabilities/20.http-host-header-attacks.md)            
+21. [Oauth authentication](vulnerabilities/21.oauth-authentication.md)                    
+22. [File upload vulnerabilities](vulnerabilities/22.file-upload-vulnerabilities.md)      
+23. [JWT authentication](vulnerabilities/23.jwt-authentication.md)                        
+24. [Essential skills](vulnerabilities/24.essential-skills.md)                            
+25. [Prototype pollution](vulnerabilities/25.prototype-pollution.md)                      
+26. [Graphql vulnerabilities](vulnerabilities/26.graphql-vulnerabilities.md)              
+27. [Race-conditions](vulnerabilities/27.race-conditions.md)                              
+28. [No SQL injection](vulnerabilities/28.no-sql-injection.md)                            
+29. [API testing](vulnerabilities/29.api-testing.md)                                      
+30. [Web cache deception](vulnerabilities/31.web-cache-deception.md)                      
+31. [web llm attacks](vulnerabilities/30.web-llm-attacks.md)                              
 
 <!-- ## Notes
 
