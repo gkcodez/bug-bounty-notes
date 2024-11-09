@@ -12,7 +12,7 @@ def count_checked_items(file_path):
     """Count checked items (marked as - [x]) in the given markdown file."""
     with open(file_path, "r") as file:
         content = file.read()
-    checked_items_count = len(re.findall(r"- \[x\]", content))
+    checked_items_count = len(re.findall("🟢", content))
     return checked_items_count
 
 def update_readme():
