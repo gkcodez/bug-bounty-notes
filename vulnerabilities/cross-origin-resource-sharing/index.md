@@ -1,5 +1,4 @@
 ## Contents
-1. [Capture the flags](contents/ctfs.md)
-2. [Labs](contents/labs.md)             
-3. [Notes](contents/notes.md)           
-4. [References](contents/references.md) 
+1. [Labs](contents/labs.md)             
+2. [Notes](contents/notes.md)           
+3. [References](contents/references.md) 
