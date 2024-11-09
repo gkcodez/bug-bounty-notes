@@ -3,7 +3,7 @@ name: Update Progress Table in README
 on:
   push:
     branches:
-      - main  # Run on pushes to the main branch
+      - main
 
 permissions:
   contents: write

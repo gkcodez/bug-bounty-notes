@@ -1,46 +1,40 @@
 import re
 from pathlib import Path
 
-# Define paths for each file and the README
-files_to_check = {
-    "Bandit": "practice/ctfs/over-the-wire/01.bandit.md",
-    "Natas": "practice/ctfs/over-the-wire/02.natas.md",
-    "SQL injection": "/practice/labs/portswigger/01.sql-injection.md"
-}
+
+
+
+# Path to your README file
 readme_path = Path("README.md")
+
 
 def count_checked_items(file_path):
     """Count checked items (marked as - [x]) in the given markdown file."""
-    print(f"Checking file: {file_path}")
     with open(file_path, "r") as file:
         content = file.read()
-    checked_items_count = len(re.findall(r"- [x]", content))
-    print(f"Checked count: {checked_items_count}")
+    checked_items_count = len(re.findall(r"- \[x\]", content))
     return checked_items_count
 
 def update_readme():
-    # Read the README content
-    with open(readme_path, "r") as file:
-        readme_content = file.readlines()
-        print(readme_content)
+    # Regular expression to match each row in the table
+    regex = r"\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|"
 
-    # Update the table in the README
-    updated_content = []
-    for line in readme_content:
-        match = re.match(r"| (\d+) | (\d+) |", line)
-        print(match)
-        if match:
-            name = match.group(1)
-            total = match.group(2)
-            print(name)
-            print(total)
-            if name in files_to_check:
+    with open(readme_path, "r") as file:
+        updated_content = []
+        for line in file:
+            match = re.match(regex, line)
+            if match:
+                # Extract relevant information
+                name = match.group(1)          # The text in square brackets
+                path = match.group(2)          # The link path in parentheses
+                total = int(match.group(3))    # Total count
+                done = int(match.group(4))     # Done count
                 # Count checked items in the corresponding file
-                done = count_checked_items(files_to_check[name])
+                done = count_checked_items(path)
                 # Update the line with the new 'Done' count
-                line = f"| [{name}]({files_to_check[name]}) | {total} | {done} |\n"
-                print(line)
-        updated_content.append(line)
+                line = f"| [{name}]({path}) | {total} | {done} |\n"
+                # Store the path with the name as key
+            updated_content.append(line)
 
     # Write the updated content back to README.md
     with open(readme_path, "w") as file:
