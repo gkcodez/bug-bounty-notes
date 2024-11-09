@@ -22,6 +22,7 @@ def update_readme():
     # Read the README content
     with open(readme_path, "r") as file:
         readme_content = file.readlines()
+        print(readme_content)
 
     # Update the table in the README
     updated_content = []
@@ -35,6 +36,7 @@ def update_readme():
                 done = count_checked_items(files_to_check[name])
                 # Update the line with the new 'Done' count
                 line = f"| [{name}]({files_to_check[name]}) | {total} | {done} |\n"
+                print(line)
         updated_content.append(line)
 
     # Write the updated content back to README.md
