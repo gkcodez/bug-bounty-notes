@@ -1,7 +1,8 @@
 ## Vulnerabilities
 
-1. [SQL Injection](sql-injection/index.md)             
-2. [Cross site scripting](cross-site-scripting/index.md)
+1. [SQL Injection](vulnerabilities/sql-injection/index.md)             
+2. [Cross site scripting](vulnerabilities/cross-site-scripting/index.md)
+3. [Cross site request forgery](vulnerabilities/cross-site-request-forgery/index.md)
 
 
 <!-- ## Notes
