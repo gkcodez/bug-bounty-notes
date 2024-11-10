@@ -1,3 +1,5 @@
+# Bug bounty notes
+
 ## ⚠️ Vulnerabilities 
 
 ###  🟢 Server side vulnerabilities
@@ -48,3 +50,8 @@
 
 1. [Bandit](ctfs/over-the-wire/bandit.md)
 2. [Natas](ctfs/over-the-wire/natas.md)
+
+
+## 📘 References
+
+1. [Google dorks](references/google-dorks.md)
