@@ -48,11 +48,34 @@
 ### Flawed bruteforce protection
 
 - Two main methods to prevent bruteforcing
-    - Locking the account when there are too many login attempts.
     - Blocking remote ip address when there are too many login attempts.
+    - Locking the account when there are too many login attempts.
+
 - Both approaches are vulnerable if implemented using flawed logic.
 
+#### IP blocking
 - If failed attempts gets reset after successful login, then the attacker login to own account after every few attempts to make the locking the account approach virtually useless.
 
-- If the account lock, does not throw any error while login with the right credentials, even when the account is locked out, the attacker can bruteforce the password and login after the wait time is over.
+#### Account locking
+- If the account lock, does not throw any error while login with the right credentials, after account is locked out, the attacker can bruteforce the password and login after the wait time is over.
 
+
+#### User rate limit
+- Limits the number of requests that can be sent for an endpoint.
+- Better than account locking as it is less prone to username enumeration.
+
+
+> 💡 Try bypassing user rate limit by sending an array of passwords instead of a single password.
+
+
+### HTTP basic authentication
+- HTTP basic authentication is old but still used in websites due to its simplicity.
+
+```
+Authorization: Basic base64(username:password)
+```
+
+- It is not preferred due to the following reasons.
+    - Sends the credentials with every request.
+    - No bruteforce protection.
+    - No CSRF protection. 
