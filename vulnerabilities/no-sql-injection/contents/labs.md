@@ -1,4 +1,6 @@
-# Portswigger
+# Labs
+
+## Portswigger
 
 1.  [Detecting NoSQL injection](https://portswigger.net/web-security/nosql-injection/lab-nosql-injection-detection)
 

@@ -1,4 +1,6 @@
-# Portswigger
+# Labs
+
+## Portswigger
 
 1.  [Accessing private GraphQL posts](https://portswigger.net/web-security/graphql/lab-graphql-reading-private-posts)
 

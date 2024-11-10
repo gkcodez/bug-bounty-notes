@@ -1,4 +1,6 @@
-# Portswigger
+# Labs
+
+## Portswigger
 
 1.  [Excessive trust in client-side controls](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 

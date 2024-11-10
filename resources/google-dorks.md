@@ -1,8 +1,10 @@
-# Find bug bounty programs
+# Google dorks
 
-## Basic Search
+## Find bug bounty programs
 
-### Match text in URL
+### Basic Search
+
+#### Match text in URL
 ```
 inurl:bug bounty
 inurl:bug bounty reward
@@ -11,7 +13,7 @@ inurl:vulnerability disclosure
 inurl:security bounty program
 ```
 
-### Match text in webpage
+#### Match text in webpage
 ```
 intext:bug bounty
 intext:bug bounty reward
@@ -20,40 +22,40 @@ intext:vulnerability disclosure
 intext:security bounty program
 ```
 
-## Based on type
+### Based on type
 
-### Government programs
+#### Government programs
 ```
 site:*.gov.* "bug bounty"
 ```
 
-### Education programs
+#### Education programs
 ```
 site:*.edu.* "bug bounty"
 ```
 
-## Based on platforms
+### Based on platforms
 
-### Hackerone programs
+#### Hackerone programs
 ```
  site:hackerone.com "bug bounty"
 ```
 
-### Bugcrowd programs
+#### Bugcrowd programs
 ```
  site:bugcrowd.com "bug bounty"
 ```
 
-## Based on currency
+### Based on currency
 
-### Programs on dollars
+#### Programs on dollars
 ```
 intext:"dollar" inurl:bug bounty 
 intext:"$" inurl:bug bounty
 intext:"USD" inurl:bug bounty
 ```
 
-### Based on top level domains
+#### Based on top level domains
 ```
 site:*.in bug bounty 
 site:*.us bug bounty

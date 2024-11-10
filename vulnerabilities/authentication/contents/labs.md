@@ -1,4 +1,6 @@
-# Portswigger
+# Labs
+
+## Portswigger
 1. [Username enumeration via different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses)
    - Fuzz the username using the username list provided in the lab.
    - Get valid username from the request with `Incorrect password` instead of `Incorrect username` in the response body.
