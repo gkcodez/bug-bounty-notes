@@ -2,7 +2,7 @@
 
 ## ⚠️ Vulnerabilities 
 
-###  🟢 Server side vulnerabilities
+### ⚠️ Server side vulnerabilities
 
 1. [SQL Injection](vulnerabilities/sql-injection/index.md)             
 2. [Authentication](vulnerabilities/authentication/index.md)                                
@@ -19,7 +19,7 @@
 13. [API testing](vulnerabilities/api-testing/index.md)                                      
 14. [Web cache deception](vulnerabilities/web-cache-deception/index.md)                      
 
-### 🔵 Client side vulnerabilities 
+### ⚠️ Client side vulnerabilities 
 
 1. [Cross site scripting](vulnerabilities/cross-site-scripting/index.md)
 2. [Cross site request forgery](vulnerabilities/cross-site-request-forgery/index.md)
@@ -28,7 +28,7 @@
 5. [DOM based vulnerabilities](vulnerabilities/dom-based-vulnerabilities/index.md)          
 6. [Websockets](vulnerabilities/websockets/index.md)                                        
 
-### 🔴 Advanced vulnerabilities
+### ⚠️ Advanced vulnerabilities
 
 
 1.  [Insecure deserialization](vulnerabilities/insecure-deserialization/index.md)            
@@ -46,7 +46,7 @@
 
 ## 🚩 Capture the flags 
 
-### 1.  Over the wire
+### 🚩 Over the wire
 
 1. [Bandit](ctfs/over-the-wire/bandit.md)
 2. [Natas](ctfs/over-the-wire/natas.md)
