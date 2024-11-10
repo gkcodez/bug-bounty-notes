@@ -45,5 +45,9 @@
 12. [Password brute-force via password change](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-brute-force-via-password-change)
 
 13. [Broken brute-force protection, multiple credentials per request](https://portswigger.net/web-security/authentication/password-based/lab-broken-brute-force-protection-multiple-credentials-per-request)
+   - Sign in with username as `carlos` and `test`.
+   - Intercept the sign in request.
+   - Change the password from `test` to an array of all the values in the password list provided in the lab.
+   - Send the request.
 
 14. [2FA bypass using a brute-force attack](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-bypass-using-a-brute-force-attack)

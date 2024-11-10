@@ -1,7 +1,29 @@
 # Bandit
 1. [Level 0](https://overthewire.org/wargames/bandit/bandit0.html)
+
+    - Connect to bandit ssh server using the below command.
+
+    ```
+    ssh -l bandit0 bandit.labs.overthewire.org -p 2220
+    ```
+    - Enter the password as `bandit0`.
+
 1. [Level 0 -> Level 1](https://overthewire.org/wargames/bandit/bandit1.html)
+
+    - Read the contents of the readme file located in home directory using the below command.
+
+    ```
+    cat ~/readme
+    ```
+    - Password should be displayed at the end of the file. For example: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`.
+
 1. [Level 1 -> Level 2](https://overthewire.org/wargames/bandit/bandit2.html)
+    - Read the contents of - file in home directory.
+    ```
+    cat ~/-
+    ```
+    Note: `cat -` will NOT work. Full path needs to be passed for dashed filenames.
+
 1. [Level 2 -> Level 3](https://overthewire.org/wargames/bandit/bandit3.html)
 1. [Level 3 -> Level 4](https://overthewire.org/wargames/bandit/bandit4.html)
 1. [Level 4 -> Level 5](https://overthewire.org/wargames/bandit/bandit5.html)
