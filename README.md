@@ -30,7 +30,6 @@
 
 ### ⚠️ Advanced vulnerabilities
 
-
 1.  [Insecure deserialization](vulnerabilities/insecure-deserialization/index.md)            
 2.  [Web LLM attacks](vulnerabilities/web-llm-attacks/index.md)                              
 3.  [GraphQL vulnerabilities](vulnerabilities/graphql-vulnerabilities/index.md)              
@@ -43,14 +42,12 @@
 10. [Prototype pollution](vulnerabilities/prototype-pollution/index.md)                      
 11. [Essential skills](vulnerabilities/essential-skills/index.md)                            
 
-
 ## 🚩 Capture the flags 
 
 ### 🚩 Over the wire
 
 1. [Bandit](ctfs/over-the-wire/bandit.md)
 2. [Natas](ctfs/over-the-wire/natas.md)
-
 
 ## 📘 References
 
