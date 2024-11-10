@@ -1,4 +1,4 @@
-## Portswigger
+# Portswigger
 
 1.  [Exploiting an API endpoint using documentation](https://portswigger.net/web-security/api-testing/lab-exploiting-api-endpoint-using-documentation)
 

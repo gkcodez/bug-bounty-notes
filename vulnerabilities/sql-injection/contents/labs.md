@@ -1,4 +1,4 @@
-## Portswigger
+# Portswigger
 
 1. [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
 

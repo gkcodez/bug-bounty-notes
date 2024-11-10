@@ -1,4 +1,4 @@
-## Portswigger
+# Portswigger
 
 1.  [Authentication bypass via OAuth implicit flow](https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow)
 
