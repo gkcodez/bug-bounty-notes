@@ -1,4 +1,4 @@
 # 🧪 Labs
 
-[Juice shop](juice-shop/juice-shop.md)
-[DVWA](dvwa/dvwa.md)
+1. [Juice shop](juice-shop/juice-shop.md)
+2. [DVWA](dvwa/dvwa.md)

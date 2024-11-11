@@ -1,3 +1,3 @@
 # 🚩 Capture The Flags
 
-[Over The Wire](over-the-wire/over-the-wire.md)
+1. [Over The Wire](over-the-wire/over-the-wire.md)
