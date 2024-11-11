@@ -1,4 +1,4 @@
-# Notes
+# ✍️ Notes
 
 ## What is authentication?
 - Process of verifying the identity of a user or client.
