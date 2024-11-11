@@ -11,7 +11,7 @@
 4. [Business logic](vulnerabilities/business-logic/business-logic.md)
 5. [Information disclosure](vulnerabilities/information-disclosure/information-disclosure.md)                
 6. [Access control](vulnerabilities/access-control/access-control.md)
-7. [File upload vulnerabilities](vulnerabilities/file-upload-vulnerabilities/file-upload-vulnerabilities.md)      
+7. [File upload vulnerabilities](vulnerabilities/file-upload-vulnerabilities/file-upload.md)      
 8. [Race-conditions](vulnerabilities/race-conditions/race-conditions.md)                              
 9.  [Server side request forgery](vulnerabilities/server-side-request-forgery/server-side-request-forgery.md)      
 10. [XML external entity injection](vulnerabilities/xml-external-entity-injection/xml-external-entity-injection.md)  
@@ -25,14 +25,14 @@
 2. [Cross site request forgery](vulnerabilities/cross-site-request-forgery/cross-site-request-forgery.md)
 3. [Cross origin resource sharing](vulnerabilities/cross-origin-resource-sharing/cross-origin-resource-sharing.md)  
 4. [Clickjacking](vulnerabilities/clickjacking/clickjacking.md)                                    
-5. [DOM based vulnerabilities](vulnerabilities/dom-based-vulnerabilities/dom-based-vulnerabilities.md)          
+5. [DOM based](vulnerabilities/dom-based/dom-based.md)          
 6. [Websockets](vulnerabilities/websockets/websockets.md)                                        
 
 ### ⚠️ Advanced vulnerabilities
 
 1.  [Insecure deserialization](vulnerabilities/insecure-deserialization/insecure-deserialization.md)            
 2.  [Web LLM attacks](vulnerabilities/web-llm-attacks/web-llm-attacks.md)                              
-3.  [GraphQL vulnerabilities](vulnerabilities/graphql-vulnerabilities/graphql-vulnerabilities.md)              
+3.  [GraphQL vulnerabilities](vulnerabilities/graphql-vulnerabilities/graphql.md)              
 4.  [Server side template injection](vulnerabilities/server-side-template-injection/server-side-template-injection.md)
 5.  [Web cache poisoning](vulnerabilities/web-cache-poisoning/web-cache-poisoning.md)                      
 6.  [HTTP host header attacks](vulnerabilities/http-host-header-attacks/http-host-header-attacks.md)            
