@@ -1,5 +1,5 @@
 # File upload
-1. [Labs](bug-bounty-notes/contents/labs)             
+1. [Labs](contents/labs)             
 2. [Notes](contents/notes.md)           
 3. [References](contents/references.md)  
 4. [Reports](contents/reports.md)           
