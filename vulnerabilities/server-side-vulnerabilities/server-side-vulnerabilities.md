@@ -1,0 +1,16 @@
+# ⚠️ Server Side Vulnerabilities
+
+1. [SQL Injection](sql-injection/sql-injection.md)             
+2. [Authentication](authentication/authentication.md)                                
+2. [Path traversal](path-traversal/path-traversal.md)                                
+3. [OS command injection](os-command-injection/os-command-injection.md)                    
+4. [Business logic](business-logic/business-logic.md)
+5. [Information disclosure](information-disclosure/information-disclosure.md)                
+6. [Access control](access-control/access-control.md)
+7. [File upload](file-upload/file-upload.md)      
+8. [Race-conditions](race-conditions/race-conditions.md)                              
+9.  [Server side request forgery](server-side-request-forgery/server-side-request-forgery.md)      
+10. [XML external entity injection](xml-external-entity-injection/xml-external-entity-injection.md)  
+11. [No SQL injection](no-sql-injection/no-sql-injection.md)                            
+12. [API testing](api-testing/api-testing.md)                                      
+13. [Web cache deception](web-cache-deception/web-cache-deception.md)

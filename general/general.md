@@ -1,4 +1,4 @@
-# General
+# 📝 General
 
-[Capture The Flags](capture-the-flags/capture-the-flags.md)
-[Labs](labs/labs.md)
+1. [Capture The Flags](capture-the-flags/capture-the-flags.md)
+2. [Labs](labs/labs.md)
