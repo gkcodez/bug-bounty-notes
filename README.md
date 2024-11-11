@@ -4,51 +4,51 @@
 
 ### ⚠️ Server side vulnerabilities
 
-#### 1. [SQL Injection](sql-injection.md)             
-#### 2. [Authentication](authentication.md)                                
-#### 3. [Path traversal](path-traversal.md)                                
-#### 4. [OS command injection](os-command-injection.md)                    
-#### 5. [Business logic vulnerabilities](business-logic-vulnerabilities.md)
-#### 6. [Information disclosure](information-disclosure.md)                
-#### 7. [Access control vulnerabilities](access-control.md)
-#### 8. [File upload vulnerabilities](file-upload-vulnerabilities.md)      
-#### 9. [Race-conditions](race-conditions.md)                              
-#### 10. [Server side request forgery](server-side-request-forgery.md)      
-#### 11. [XML external entity injection](xml-external-entity-injection.md)  
-#### 12. [No SQL injection](no-sql-injection.md)                            
-#### 13. [API testing](api-testing.md)                                      
-#### 14. [Web cache deception](web-cache-deception.md)                      
+##### 1. [SQL Injection](vulnerabilities/sql-injection/index.md)             
+##### 2. [Authentication](vulnerabilities/authentication/index.md)                                
+##### 3. [Path traversal](vulnerabilities/path-traversal/index.md)                                
+##### 4. [OS command injection](vulnerabilities/os-command-injection/index.md)                    
+##### 5. [Business logic vulnerabilities](vulnerabilities/business-logic-vulnerabilities/index.md)
+##### 6. [Information disclosure](vulnerabilities/information-disclosure/index.md)                
+##### 7. [Access control vulnerabilities](vulnerabilities/access-control-vulnerabilities/index.md)
+##### 8. [File upload vulnerabilities](vulnerabilities/file-upload-vulnerabilities/index.md)      
+##### 9. [Race-conditions](vulnerabilities/race-conditions/index.md)                              
+##### 10. [Server side request forgery](vulnerabilities/server-side-request-forgery/index.md)      
+##### 11. [XML external entity injection](vulnerabilities/xml-external-entity-injection/index.md)  
+##### 12. [No SQL injection](vulnerabilities/no-sql-injection/index.md)                            
+##### 13. [API testing](vulnerabilities/api-testing/index.md)                                      
+##### 14. [Web cache deception](vulnerabilities/web-cache-deception/index.md)                      
 
 ### ⚠️ Client side vulnerabilities 
 
-#### 1. [Cross site scripting](cross-site-scripting.md)
-#### 2. [Cross site request forgery](cross-site-request-forgery.md)
-#### 3. [Cross origin resource sharing](cross-origin-resource-sharing.md)  
-#### 4. [Clickjacking](clickjacking.md)                                    
-#### 5. [DOM based vulnerabilities](dom-based-vulnerabilities.md)          
-#### 6. [Websockets](websockets.md)                                        
+##### 1. [Cross site scripting](vulnerabilities/cross-site-scripting/index.md)
+##### 2. [Cross site request forgery](vulnerabilities/cross-site-request-forgery/index.md)
+##### 3. [Cross origin resource sharing](vulnerabilities/cross-origin-resource-sharing/index.md)  
+##### 4. [Clickjacking](vulnerabilities/clickjacking/index.md)                                    
+##### 5. [DOM based vulnerabilities](vulnerabilities/dom-based-vulnerabilities/index.md)          
+##### 6. [Websockets](vulnerabilities/websockets/index.md)                                        
 
 ### ⚠️ Advanced vulnerabilities
 
-#### 1.  [Insecure deserialization](insecure-deserialization.md)            
-#### 2.  [Web LLM attacks](web-llm-attacks.md)                              
-#### 3.  [GraphQL vulnerabilities](graphql-vulnerabilities.md)              
-#### 4.  [Server side template injection](server-side-template-injection.md)
-#### 5.  [Web cache poisoning](web-cache-poisoning.md)                      
-#### 6.  [HTTP host header attacks](http-host-header-attacks.md)            
-#### 7.  [HTTP request smuggling](http-request-smuggling.md)                
-#### 8.  [Oauth authentication](oauth-authentication.md)                    
-#### 9.  [JWT authentication](jwt-authentication.md)                        
-#### 10. [Prototype pollution](prototype-pollution.md)                      
-#### 11. [Essential skills](essential-skills.md)                            
+##### 1.  [Insecure deserialization](vulnerabilities/insecure-deserialization/index.md)            
+##### 2.  [Web LLM attacks](vulnerabilities/web-llm-attacks/index.md)                              
+##### 3.  [GraphQL vulnerabilities](vulnerabilities/graphql-vulnerabilities/index.md)              
+##### 4.  [Server side template injection](vulnerabilities/server-side-template-injection/index.md)
+##### 5.  [Web cache poisoning](vulnerabilities/web-cache-poisoning/index.md)                      
+##### 6.  [HTTP host header attacks](vulnerabilities/http-host-header-attacks/index.md)            
+##### 7.  [HTTP request smuggling](vulnerabilities/http-request-smuggling/index.md)                
+##### 8.  [Oauth authentication](vulnerabilities/oauth-authentication/index.md)                    
+##### 9.  [JWT authentication](vulnerabilities/jwt-authentication/index.md)                        
+##### 10. [Prototype pollution](vulnerabilities/prototype-pollution/index.md)                      
+##### 11. [Essential skills](vulnerabilities/essential-skills/index.md)                            
 
 ## 🚩 Capture the flags 
 
 ### 🚩 Over the wire
 
-#### 1. [Bandit](ctfs/over-the-wire/bandit.md)
-#### 2. [Natas](ctfs/over-the-wire/natas.md)
+##### 1. [Bandit](ctfs/over-the-wire/bandit.md)
+##### 2. [Natas](ctfs/over-the-wire/natas.md)
 
 ## 📘 References
 
-#### 1. [Google dorks](references/google-dorks.md)
+##### 1. [Google dorks](references/google-dorks.md)
