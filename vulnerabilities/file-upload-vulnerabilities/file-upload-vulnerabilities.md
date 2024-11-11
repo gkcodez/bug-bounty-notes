@@ -1,6 +1,6 @@
 # Contents
-1. [Labs](vulnerabilities/file-upload-vulnerabilities/contents/labs.md)             
-2. [Notes](vulnerabilities/file-upload-vulnerabilities/contents/notes.md)           
-3. [References](vulnerabilities/file-upload-vulnerabilities/contents/references.md)  
-4. [Reports](vulnerabilities/file-upload-vulnerabilities/contents/reports.md)           
-5. [Writeups](vulnerabilities/file-upload-vulnerabilities/contents/writeups.md)  
+1. [Labs](contents/labs.md)             
+2. [Notes](contents/notes.md)           
+3. [References](contents/references.md)  
+4. [Reports](contents/reports.md)           
+5. [Writeups](contents/writeups.md)  

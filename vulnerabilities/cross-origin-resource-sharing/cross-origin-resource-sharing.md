@@ -1,6 +1,6 @@
 # Contents
-1. [Labs](vulnerabilities/cross-origin-resource-sharing/contents/labs.md)             
-2. [Notes](vulnerabilities/cross-origin-resource-sharing/contents/notes.md)           
-3. [References](vulnerabilities/cross-origin-resource-sharing/contents/references.md)  
-4. [Reports](vulnerabilities/cross-origin-resource-sharing/contents/reports.md)           
-5. [Writeups](vulnerabilities/cross-origin-resource-sharing/contents/writeups.md)  
+1. [Labs](contents/labs.md)             
+2. [Notes](contents/notes.md)           
+3. [References](contents/references.md)  
+4. [Reports](contents/reports.md)           
+5. [Writeups](contents/writeups.md)  

@@ -1,6 +1,6 @@
 # Contents
-1. [Labs](vulnerabilities/oauth-authentication/contents/labs.md)             
-2. [Notes](vulnerabilities/oauth-authentication/contents/notes.md)           
-3. [References](vulnerabilities/oauth-authentication/contents/references.md)  
-4. [Reports](vulnerabilities/oauth-authentication/contents/reports.md)           
-5. [Writeups](vulnerabilities/oauth-authentication/contents/writeups.md)  
+1. [Labs](contents/labs.md)             
+2. [Notes](contents/notes.md)           
+3. [References](contents/references.md)  
+4. [Reports](contents/reports.md)           
+5. [Writeups](contents/writeups.md)  
