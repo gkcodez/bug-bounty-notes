@@ -17,7 +17,9 @@
 
 
 3.  [Password reset broken logic](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
-
+      - Generate a password reset token for `wiener`.
+      - Using this token reset the password for `carlos`.
+      - Reset the password for `carlos`.
 
 
 4. [Username enumeration via subtly different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)

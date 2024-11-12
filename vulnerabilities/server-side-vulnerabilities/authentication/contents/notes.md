@@ -79,3 +79,8 @@ Authorization: Basic base64(username:password)
     - Sends the credentials with every request.
     - No bruteforce protection.
     - No CSRF protection. 
+
+## Vulnerabilities in MFA based login
+
+### Bypassing two factor authentication
+- Test if you can directly load the logged in page, bypassing the 2fa page completely.
