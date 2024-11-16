@@ -17,7 +17,14 @@
 - Non-administrative user gains access to administrative functions.
 
 #### Unprotected functionality
-- Administrative URL may be exposed in `robots.txt` file.
+- Sensitive information might be exposed in `robots.txt` file.
 - Attacker can also bruteforce / fuzz the URL to find a sensitive functionality.
+- Sometimes, sensitive information might be available in an unpredictable URL (Security by obscurity).
+- This would fail if the URL is exposed in any of the javascript files.
 
-
+#### Parameter-based access control methods
+- Some applications capture user access rights or role at login and store it in an user controlled location.
+  - Hidden field
+  - Cookie
+  - Query string parameter
+- Attacker can modify these values and access administrative functions.
