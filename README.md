@@ -1,4 +1,4 @@
 # 📕 Bug Bounty Notes
 
-
-2. [OWASP TOP 10](OWASP-TOP-10/OWASP-TOP-10.md)
+1. [General](general/general.md)
+1. [Vulnerabilities](vulnerabilities/vulnerabilities.md)
