@@ -50,4 +50,11 @@
 hashcat -a 0 -m 16500 <jwt> <wordlist>
 ```
 
-### JWT header parameter injections
+## JWT header parameter injections
+- According to JWS specification, only the `alg` parameter is mandatory.
+- Other parameters are called JOSE parameters.
+  - jwk (JSON Web Key) - Provides an embedded JSON object representing the key.
+  - jku (JSON Web Key Set URL) - Provides a URL from which a server can fetch set of keys containing correct key.
+  - kid (Key ID) - Provides an ID which the server uses to identify the correct key in case there are multiple keys.
+
+### Injecting self-signed JWTs via the jwk parameter

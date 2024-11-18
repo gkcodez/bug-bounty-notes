@@ -20,13 +20,20 @@
         ```
         hashcat -a 0 -m 16500 <JWT_TOKEN> <WORDLIST>
         ```
-    - Switch to JWT token tab and Generate a New Symmetric Key using the identified secret.
+    - Switch to JWT Editor tab and Generate a New Symmetric Key using the identified secret.
     - Switch to JSON Web Token tab inside Repeater tab.
     - Change the payload value as required and Click on Sign.
     - In the new window select the previously generated symmetric key.
     - Delete the user `carlos` using the delete request with modified JWT.
 
 4.  [JWT authentication bypass via jwk header injection](https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jwk-header-injection)
+    - Send the request with JWT token to the Repeater Tab.
+    - Switch to JWT Editor tab and Generate a RSA Key.
+    - Switch to JSON Web Token tab inside Repeater tab.
+    - Change the payload value as required and Click on Attack.
+    - In the new window select the previously generated RSA key.
+    - Delete the user `carlos` using the delete request with modified JWT.
+
 
 5.  [JWT authentication bypass via jku header injection](https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jku-header-injection)
 
