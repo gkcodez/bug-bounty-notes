@@ -13,7 +13,7 @@ ffuf -w wordlist.txt -u https://host.name:PORT/FUZZ
 ### Fuzz File Extensions
 
 ```
-ffuf -w wordlist.txt -u https://host.name/indexFUZZ
+ffuf -w wordlist.txt -u https://host.name/index.FUZZ
 ```
 
 ### File names
@@ -45,25 +45,32 @@ ffuf -b "NAME1=VALUE1; NAME2=VALUE2" -w wordlist.txt -u https://host.name/FUZZ
 ### Try different usernames and passwords (Clusterbomb)
 
 ```
-ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USER&password=PASS --mode clusterbomb
+ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USERFUZZ&password=PASSFUZZ --mode clusterbomb
 ```
 
 ### Try different usernames and passwords (Pitchfork)
 
 ```
-ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USER&password=PASS --mode pitchfork
+ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USERFUZZ&password=PASSFUZZ --mode pitchfork
 ```
 
 ### Fuzz multiple parts of the JSON request
 
 ```
-ffuf -w usernames.txt:U -w passwords.txt:P -X POST -d '{"username":"U","password":"P"}' -H 'Content-Type: application/json' -u https://example.com/api/login
+ffuf -w usernames.txt:U -w passwords.txt:P -X POST -d '{"username":"USERFUZZ","password":"PASSFUZZ"}' -H 'Content-Type: application/json' -u https://example.com/api/login
 ```
 
 ### Fuzz both directory and filenames
 
 ```
 ffuf -w dirs.txt:DIR -w files.txt:FILE -u https://example.com/DIR/FILE
+```
+
+### Fuzz with request file
+
+```
+ffuf -request request.txt -request-proto http -mode clusterbomb -w usernames.txt:USERFUZZ -w passwords.txt:PASSFUZZ -mc 200
+
 ```
 
 ## Subdomains and Vhosts
