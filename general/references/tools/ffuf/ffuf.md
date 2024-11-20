@@ -5,37 +5,31 @@
 ## Basic Usage
 
 ### Fuzz File Paths
-
 ```
 ffuf -w wordlist.txt -u https://host.name:PORT/FUZZ
 ```
 
 ### Fuzz File Extensions
-
 ```
 ffuf -w wordlist.txt -u https://host.name/index.FUZZ
 ```
 
 ### File names
-
 ```
 ffuf -w wordlist.txt -u https://host.name/blog/FUZZ.php
 ```
 
 ### Use command output as a word list, for example fuzz user IDs with seq command
-
 ```
 ffuf -c -w <(seq 1 1000) -u https://host.name/api/users/FUZZ
 ```
 
 ### Recursive Fuzzing
-
 ```
 ffuf -recursion -recursion-depth 3 -w wordlist.txt -u https://host.name/FUZZ
 ```
 
 ### Set Cookies
-
 ```
 ffuf -b "NAME1=VALUE1; NAME2=VALUE2" -w wordlist.txt -u https://host.name/FUZZ
 ```
@@ -43,46 +37,38 @@ ffuf -b "NAME1=VALUE1; NAME2=VALUE2" -w wordlist.txt -u https://host.name/FUZZ
 ## Multiple Wordlists
 
 ### Try different usernames and passwords (Clusterbomb)
-
 ```
 ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USERFUZZ&password=PASSFUZZ --mode clusterbomb
 ```
 
 ### Try different usernames and passwords (Pitchfork)
-
 ```
 ffuf -w users.txt:USER -w passwords.txt:PASS -u https://example.com/login?username=USERFUZZ&password=PASSFUZZ --mode pitchfork
 ```
 
 ### Fuzz multiple parts of the JSON request
-
 ```
 ffuf -w usernames.txt:U -w passwords.txt:P -X POST -d '{"username":"USERFUZZ","password":"PASSFUZZ"}' -H 'Content-Type: application/json' -u https://example.com/api/login
 ```
 
 ### Fuzz both directory and filenames
-
 ```
 ffuf -w dirs.txt:DIR -w files.txt:FILE -u https://example.com/DIR/FILE
 ```
 
 ### Fuzz with request file
-
 ```
 ffuf -request request.txt -request-proto http -mode clusterbomb -w usernames.txt:USERFUZZ -w passwords.txt:PASSFUZZ -mc 200
-
 ```
 
 ## Subdomains and Vhosts
 
 ### Subdomains
-
 ```
 ffuf -w wordlist.txt -u https://FUZZ.host.name/
 ```
 
 ### VHosts
-
 ```
 ffuf -w wordlist.txt -u http://host.name/ -H 'Host: FUZZ.host.name'
 ```
@@ -91,25 +77,21 @@ ffuf -w wordlist.txt -u http://host.name/ -H 'Host: FUZZ.host.name'
 ## HTTP Parameters
 
 ### Parameter names - GET
-
 ```
 ffuf -w wordlist.txt -u http://host.name/index.php?FUZZ=key
 ```
 
 ### Parameter names - POST
-
 ```
 ffuf -w wordlist.txt -u https://host.name/index.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' 
 ```
 
 ### Parameter value - POST
-
 ```
 ffuf -w ids.txt -u https://host.name/index.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded'
 ```
 
 ### Fuzzing JSON Post data
-
 ```
 ffuf -X POST -H "Content-Type: application/json" -d '{"username": "admin", "password": "FUZZ"}' -w /path/to/wordlist.txt -u http://example.com/api/login
 ```
@@ -117,31 +99,26 @@ ffuf -X POST -H "Content-Type: application/json" -d '{"username": "admin", "pass
 ## Headers
 
 ### Change the user agents
-
 ```
 ffuf -w wordlist.txt -u https://host.name/FUZZ -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
 ```
 
 ### Set Content-type header
-
 ```
 ffuf -w wordlist.txt -u https://host.name/FUZZ -H "Content-Type: application/json" -X POST
 ```
 
 ### Setting Authorization header
-
 ```
 ffuf -w /path/to/wordlist.txt -u https://example.com/FUZZ -H "Authorization: Bearer mytoken"
 ```
 
 ### Bearer token value
-
 ```
 ffuf -w tokens.txt -H "Authorization: Bearer FUZZ" -u https://example.com/api/resource
 ```
 
 ### Header value
-
 ```
 ffuf -w /path/to/wordlist.txt -u http://example.com -H "X-Forwarded-For: FUZZ"
 ```
@@ -149,20 +126,17 @@ ffuf -w /path/to/wordlist.txt -u http://example.com -H "X-Forwarded-For: FUZZ"
 ## Rate limits
 
 ### Rate limit to 50 rq/s
-
 ```
 ffuf -rate 50 -w wordlist.txt -u https://host.name/FUZZ
 ```
 
 
 ### Set Number of threads
-
 ```
 ffuf -t 5 -w wordlist.txt -u https://host.name/FUZZ
 ```
 
 ### Delays
-
 ```
 ffuf -w wordlist.txt -u https://example.com/FUZZ -t 2 -p 1
 ```
