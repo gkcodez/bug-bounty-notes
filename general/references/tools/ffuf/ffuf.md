@@ -24,6 +24,12 @@ ffuf -w wordlist.txt -u https://host.name/blog/FUZZ.php
 ffuf -c -w <(seq 1 1000) -u https://host.name/api/users/FUZZ
 ```
 
+### Generate wordlists of numbers with leading zeros
+```
+ffuf -c -w <(seq -f "%04g" 1 1000) -u https://host.name/api/users/FUZZ
+```
+Note: `%04g` generates numbers with 4 digits with leading zeros.
+
 ### Recursive Fuzzing
 ```
 ffuf -recursion -recursion-depth 3 -w wordlist.txt -u https://host.name/FUZZ
