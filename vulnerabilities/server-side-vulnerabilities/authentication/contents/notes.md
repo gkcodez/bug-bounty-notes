@@ -84,3 +84,4 @@ Authorization: Basic base64(username:password)
 
 ### Bypassing two factor authentication
 - Test if you can directly load the logged in page, bypassing the 2fa page completely.
+- Check if you can chenge the cookie value to a different value to trigger 2fa codeand bruteforce the code using burp intruder, zap or ffuf.

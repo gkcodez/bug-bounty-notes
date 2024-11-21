@@ -1,4 +1,4 @@
-# FFUF (Fuzz Faster You Fool)
+# 🔨 FFUF (Fuzz Faster You Fool)
 
 
 
