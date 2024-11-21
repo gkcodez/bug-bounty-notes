@@ -21,12 +21,6 @@
 - Online shop leaking information of user's credit card details is severe.
 - Leaking technical information, such as the directory structure or which third-party frameworks are being used, may have little to no direct impact.
 
-## How to prevent information disclosure vulnerabilities
-- Audit any code for potential information disclosure as part of your QA or build processes.
-- Use generic error messages as much as possible. Don't provide attackers with clues about application behavior unnecessarily.
-- Double-check that any debugging or diagnostic features are disabled in the production environment.
-- Make sure you fully understand the configuration settings, and security implications, of any third-party technology that you implement.
-
 ## Testing for information disclosure
 - Fuzzing
 - Using burp scanner
@@ -43,3 +37,9 @@
 - Backup files
 - Insecure configuration
 - Version control history
+
+## How to prevent information disclosure vulnerabilities
+- Audit any code for potential information disclosure as part of your QA or build processes.
+- Use generic error messages as much as possible. Don't provide attackers with clues about application behavior unnecessarily.
+- Double-check that any debugging or diagnostic features are disabled in the production environment.
+- Make sure you fully understand the configuration settings, and security implications, of any third-party technology that you implement.
