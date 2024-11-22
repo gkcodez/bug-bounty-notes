@@ -13,4 +13,3 @@
 ## How to prevent business logic vulnerabilities?
 - Make developers understand the domain.
 - Avoid making implicit assumptions about the user behavior.
-
