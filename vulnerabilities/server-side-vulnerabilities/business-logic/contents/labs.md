@@ -3,8 +3,16 @@
 ## Portswigger
 
 1.  [Excessive trust in client-side controls](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
+    - Login as `wiener`.
+    - Intercept the request to add the `leather jacket` product to cart.
+    - Change the price to `1` and forward the request.
+    - Place order with the modified price.
 
 2.  [High-level logic vulnerability](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-high-level)
+    - Login as `wiener`.
+    - Intercept the request to add the `leather jacket` product to cart.
+    - Add a few other products in negative quantity to bring the price below 100.
+    - Place order with the modified price.
 
 3.  [Inconsistent security controls](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-inconsistent-security-controls)
 
