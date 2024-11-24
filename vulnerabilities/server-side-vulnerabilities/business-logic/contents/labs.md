@@ -19,6 +19,11 @@
 4.  [Flawed enforcement of business rules](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules)
 
 5.  [Low-level logic flaw](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-low-level)
+    - Login as `wiener`.
+    - Intercept the request to add the `leather jacket` product to cart.
+    - Repeat the add request `64247` times for the `leather jacket product`.
+    - Add another product manually until the negative value becomes positive and below 100.
+    - Place order with modified price.
 
 6.  [Inconsistent handling of exceptional input](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-inconsistent-handling-of-exceptional-input)
 
