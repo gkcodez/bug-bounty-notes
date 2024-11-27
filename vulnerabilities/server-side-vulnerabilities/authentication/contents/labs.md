@@ -58,8 +58,16 @@
       ```
 
 9.  [Brute-forcing a stay-logged-in cookie](https://portswigger.net/web-security/authentication/other-mechanisms/lab-brute-forcing-a-stay-logged-in-cookie)
+   - Login as `wiener` with remember me option enabled.
+   - Get the `stay-logged-in` cookie and base64 decode it.
+   - The decoded cookie will be in the format wiener:md5hashofpassword
+   - Use intruder to bruteforce the password of carlos using the following payload processors.
+      - md5hash
+      - prefix carlos:
+      - base64 encode
 
 10. [Offline password cracking](https://portswigger.net/web-security/authentication/other-mechanisms/lab-offline-password-cracking)
+
 
 11. [Password reset poisoning via middleware](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware)
 
