@@ -3,10 +3,15 @@
 ## Portswigger
 
 1. [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+    - Apply category filter in the products list page.
+    - Intercept the request and append `'+OR+1=1--` after the category name.
 
 2. [SQL injection vulnerability allowing login bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+    - In the login page enter `administrator'--` as username and any string as password.
 
 3. [SQL injection attack, querying the database type and version on Oracle](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle)
+    - Apply category filter in the products list page.
+    - Intercept the request and append `'+UNION+SELECT+banner,NULL+FROM+v$version+--` after the category name.
 
 4. [SQL injection attack, querying the database type and version on MySQL and Microsoft](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
 
