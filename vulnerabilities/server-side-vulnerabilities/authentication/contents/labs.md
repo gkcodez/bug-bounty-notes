@@ -80,6 +80,7 @@
       hashcat -a 0 -m 0 26323c16d5f4dabff3bb136f2460a943 ~/Wordlists/Rockyou/rockyou.txt
       ```
 
+
 11. [Password reset poisoning via middleware](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware)
    - Intercept the forgot password endpoint.
    - Change the username to `carlos`.
