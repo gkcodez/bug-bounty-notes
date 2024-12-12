@@ -7,6 +7,7 @@
     - Search `<script>alert(1)</script>` in the search box.
 
 2.  [Stored XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
+    - Write a comment with the comment `</p><script>alert(1)</script><p>` in the comment box.
 
 3.  [DOM XSS in document.write sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
 
