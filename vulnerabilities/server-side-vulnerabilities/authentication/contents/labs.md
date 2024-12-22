@@ -21,7 +21,6 @@
       - Using this token reset the password for `carlos`.
       - Reset the password for `carlos`.
 
-
 4. [Username enumeration via subtly different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)
    - Fuzz the username using the username list provided in the lab.
    - Get valid username from the request with `Incorrect username or password` instead of `Incorrect username or password.` in the response body. Note the `.` at the end.
