@@ -48,4 +48,17 @@
   - Find the malicious IP and block it
   - Malicious IP address can be identified from opensource databases such as AbuseIPDB
 
+## Careers in Cyber
+
+### Introduction
+- Cybersecurity jobs are becoming more in demand and offer high salaries.
+
+### Different roles in cybersecurity
+- Security analyst - Constructs security measures to protect organizations from attacks.
+- Security engineer - Develop and implement security solutions using threats and vulnerabilities data.
+- Incident responder - Reponds productively and efficiently to security breaches.
+- Digital forensic examiner - Collects and analyzes evidence to help solve crimes.
+- Malware analyst - Analyzes suspicious programs. Also called as reverse engineer. Requires strong programming knowledge.
+- Penetration tester - Also called pentester or ethical hacker. Finds flaws and vulnerabilities in the system.
+- Red teamer - Similar to pentesters but it also evaluates company's detection and response capabilities. It imitates cybercriminals.
   
