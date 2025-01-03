@@ -49,3 +49,15 @@
 - The response is then sent back to the client requesting it.
 - All DNS records come with a Time To Live (TTL) value in seconds after which you have to look it up again.
 - Caching saves on making a DNS request everytime you communicate with the server.
+
+## HTTP in Detail
+
+### What is HTTP(S)?
+- HTTP - Hyper Text Transfer Protocol.
+- HTTP is a set of rules used while communicating with web servers.
+- HTTPS - Hyper Text Transfer Protocol Secure
+- HTTPS is the secure version of HTTP. The data transmitted is encrypted and no one would be able to see it.
+
+### Requests and Responses
+- URL - Uniform Resource Locator
+- 
